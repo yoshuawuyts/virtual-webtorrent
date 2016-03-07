@@ -7,16 +7,16 @@ Webtorrent video element for virtual-dom.
 ## Usage
 ```js
 const hyperx = require('hyperx')
-const vdom = require('vdom')
-
+const vdom = require('virtual-dom')
 const hx = hyperx(vdom.h)
+const createWebTorrent = require('virtual-webtorrent')
 
 const tree = hx`
   <section>
     ${createWebTorrent({ torrent: torrent })}
   </section>
 `
-document.appendChild(vdom.create(tree))
+document.body.appendChild(vdom.create(tree))
 ```
 
 ## API
