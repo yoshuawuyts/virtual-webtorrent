@@ -1,0 +1,32 @@
+{
+  "name": "virtual-webtorrent",
+  "version": "1.0.0",
+  "description": "Webtorrent video element for virtual-dom",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/virtual-webtorrent",
+  "keywords": [
+    "virtual-dom",
+    "html",
+    "video",
+    "browser",
+    "client",
+    "vdom",
+    "component"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "virtual-widget": "^1.2.0",
+    "webtorrent": "^0.82.1"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.5.1",
+    "istanbul": "^0.4.2",
+    "standard": "^6.0.7",
+    "tape": "^4.5.0"
+  }
+}
