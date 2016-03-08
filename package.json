@@ -1,6 +1,6 @@
 {
   "name": "virtual-webtorrent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webtorrent video element for virtual-dom",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "virtual-widget": "^1.2.0",
+    "virtual-widget": "^1.2.1",
     "webtorrent": "^0.82.1"
   },
   "devDependencies": {
