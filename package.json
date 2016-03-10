@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "virtual-widget": "^1.2.1",
+    "virtual-widget": "^1.2.2",
     "webtorrent": "^0.82.1"
   },
   "devDependencies": {
